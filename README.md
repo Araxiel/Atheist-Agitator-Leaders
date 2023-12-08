@@ -1,1 +1,10 @@
 # Atheist Agitator Leaders
+Victoria 3 mini-mod that fixes the oversight of agitators being unable to be made leaders in an atheist state.
+
+You can only invite agitators who are not discriminated against. The same is true for wanting to make an agitator the leader of an interest group. Passing State Atheism replaces a country's state religion with atheism and discriminates every other religion.
+
+Characters don't have explicit religions in their profile, but are created with an implicit/hidden religion using their culture's default religion. This means until a recent update, once you pass State Atheism you couldn't invite __any__ agitators because every religion would be discriminated. Paradox fixed this problem by changing this requirement, so now the invitation only checks if the culture is discriminated and only checks for the religion if you have the State Religion law. Thus a country with State Atheism can invite "non-atheist" agitators. <br>
+Here's where the problem comes in: They didn't update the check to make those agitators IG leaders. So for example as an Atheist state, you can invite a Catholic, but not make him a leader. Now here's the thing, one could argue this is fair; those agitators can still support political movements. However, this argument doesn't really make sense, because even in an Atheist state, every single character will still be created with their culture's default religion. Not a single character will ever be created with the Atheist religion. Thus ironically and "secretly", every IG leader, even nihilists and positivists, are discriminated against in their own Atheist country. As such, I'm fairly certain this is truly an oversight. 
+
+This mini mod fixes this problem.<br>
+If your country has passed State Atheism, then the check to make an agitator an IG leader only checks for cultural discrimination.
